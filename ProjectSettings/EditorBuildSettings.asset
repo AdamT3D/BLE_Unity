@@ -8,7 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Adam/ArduinoHM10Test/ArduinoHM10Test.unity
     guid: d8c17b59e0cb44d9aa604b9b8c326e9f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Adam/AltTracker.unity
     guid: 29644ce28b9a039499f6cf97b22b0860
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Adam/AR.unity
+    guid: 9965d4272d5fcf140aba333580db5ba5
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 2b10ccb5fa08544498948a9dc7296418, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 836db02707477ce49b4fd62f084371ad, type: 2}
