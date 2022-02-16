@@ -18,6 +18,7 @@ public class ArduinoHM10Test : MonoBehaviour
 	public Text BluetoothStatus;
 	public GameObject PanelMiddle;
 	public Text TextToSend;
+	public string inputText;
 
 	enum States
 	{
@@ -193,7 +194,8 @@ public class ArduinoHM10Test : MonoBehaviour
 
 					BluetoothLEHardwareInterface.SubscribeCharacteristicWithDeviceAddress (_hm10, ServiceUUID, Characteristic, null, (address, characteristicUUID, bytes) => {
 
-						HM10_Status.text = "Received Serial: " + Encoding.UTF8.GetString (bytes);
+						inputText = Encoding.UTF8.GetString (bytes);
+						HM10_Status.text = "-" + inputText + "-";
 					});
 
 					// set to the none state and the user can start sending and receiving data
