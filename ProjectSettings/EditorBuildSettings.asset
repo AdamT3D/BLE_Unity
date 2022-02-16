@@ -14,9 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Adam/AR.unity
     guid: 9965d4272d5fcf140aba333580db5ba5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Adam/AR_Alt.unity
     guid: 143715cf989911a4d87a71a20fdc7ff2
+  - enabled: 0
+    path: Assets/Adam/AR_Alt_BLE_fail.unity
+    guid: 5fef6e6449bd1f34dad591748b687ac4
+  - enabled: 0
+    path: Assets/Adam/BLE_AR.unity
+    guid: c20239c8483edbb4d8fac8304951a47e
+  - enabled: 1
+    path: Assets/Adam/BLE_Ar_Tracking.unity
+    guid: 03b81ee0a38785f45bc4b55821d3edf4
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 2b10ccb5fa08544498948a9dc7296418, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 836db02707477ce49b4fd62f084371ad, type: 2}
