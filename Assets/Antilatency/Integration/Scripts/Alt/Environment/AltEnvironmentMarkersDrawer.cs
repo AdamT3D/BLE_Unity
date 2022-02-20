@@ -123,7 +123,7 @@ namespace Antilatency.Integration {
         }
 
         private void GenerateMarkerMesh() {
-            var markerRadius = 0.02f;
+            var markerRadius = 0.003f;
             var markerYOffset = 0.005f;
             var markerSegmentsCount = 8;
 
